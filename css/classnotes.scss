@@ -1,0 +1,36 @@
+// variables start with $
+$colorBlue: darkblue;
+$backgroundImageHeader: url(../img/background.jpg);
+$colorBlueDarker: darken($colorBlue, 50%);
+// sass can do operators (math equations)
+$columnWidth: 960px/12 * 100;
+// nesting
+.price-box {
+    span {
+
+    }
+    button {
+
+    }
+}
+// partials, start with an underscore
+// separate files for parts of the scss and import
+@import 'priceBox';
+
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+}
+.column {
+    flex: 1;
+}
