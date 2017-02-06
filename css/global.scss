@@ -1,0 +1,36 @@
+// Variables
+$colorGray: gray;
+$colorBlack: black;
+$colorWhite: white;
+$colorTan: rgb(247, 247, 247);
+$colorDark: #445063;
+$colorBorder: rgb(224, 224, 224);
+$colorGreen: rgb(81, 146, 81);
+$colorBlue: rgb(51, 79, 137);
+$backgroundImage: url(../img/background.jpg);
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+body {
+    padding: 30px;
+}
+.container {
+ max-width: 960px;
+ margin: 0 auto;
+}
+.row {
+ display: flex;
+}
+.hiddenRow {
+    visibility: hidden;
+}
+
+@import "navBar";
+@import "imageHeader";
+@import "columnRow";
+@import "whiteRow";
+@import "column";
+@import "lastRow";

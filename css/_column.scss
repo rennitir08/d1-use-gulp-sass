@@ -1,0 +1,36 @@
+.column {
+    flex: 3;
+    padding: 4px;
+    margin-right: 20px;
+    border: 1px $colorGray;
+    font-size: 11px;
+
+    h5 {
+        font-size: 12px;
+        font-weight: bold;
+        margin: 0 0 10px 0;
+        letter-spacing: 2.5px;
+    }
+    
+    .choose {
+        background-color: $colorWhite;
+
+        button {
+            background:$colorWhite;
+            border: 1px solid $colorBorder;
+            padding: 5px;
+            border-radius: 110px;
+            font-weight: bold;
+        }
+    }
+}
+
+.row-text-blocks .column {
+    &:first-child {
+        margin:0px 0px 0px 100px;
+    }
+
+    &:last-child {
+        margin:0px 100px 10px 0px;
+    }
+}

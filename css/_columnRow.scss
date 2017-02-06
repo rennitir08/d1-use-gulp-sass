@@ -1,0 +1,32 @@
+.columnRow {
+    background-color:$colorTan;
+    text-align:center; 
+    padding: 8px; 
+    color: $colorDark;
+    font-size: 12px;
+    border: 1px solid $colorBorder;
+}
+
+.columnHeader {
+    padding: 15px;
+    text-align: center;
+    color: $colorWhite;
+    font-size: 15px;
+
+    .fade {
+        opacity: 0.4;
+    }
+    .bigFont {
+        font-size:50px;
+    }
+
+    &.greenRow {
+        background-color: $colorGreen;
+    }
+    &.blueRow {
+        background-color: $colorBlue;
+    }
+    &.blackRow {
+        background-color: $colorBlack;
+    }
+}

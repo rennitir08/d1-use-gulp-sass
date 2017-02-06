@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  padding: 30px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.hiddenRow {
+  visibility: hidden;
+}
+
+.navBar {
+  padding: 10px 30px 10px 0px;
+  font-family: Arial;
+  font-size: 12px;
+}
+
+.navBar a {
+  text-decoration: none;
+  color: gray;
+}
+
+.navBar a:hover {
+  color: black;
+}
+
+.imageHeader {
+  background-image: url(../img/background.jpg);
+  padding: 2px;
+  margin-right: 20px;
+  flex: 1;
+  height: 300px;
+}
+
+.imageHeader:first-child {
+  font-family: Arial;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+  color: white;
+  text-shadow: 1px 1px #000000;
+}
+
+.columnRow {
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 8px;
+  color: #445063;
+  font-size: 12px;
+  border: 1px solid #e0e0e0;
+}
+
+.columnHeader {
+  padding: 25px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+
+.columnHeader .fade {
+  opacity: 0.4;
+}
+
+.columnHeader .bigFont {
+  font-size: 50px;
+}
+
+.columnHeader.greenRow {
+  background-color: #519251;
+}
+
+.columnHeader.blueRow {
+  background-color: #334f89;
+}
+
+.columnHeader.blackRow {
+  background-color: black;
+}
+
+.whiteRow {
+  flex: 1;
+  padding: 2px;
+  margin-right: 20px;
+  background-color: white;
+}
+
+.column {
+  flex: 3;
+  padding: 4px;
+  margin-right: 20px;
+  border: 1px gray;
+  font-size: 11px;
+}
+
+.column h5 {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  letter-spacing: 2.5px;
+}
+
+.column .choose {
+  background-color: white;
+  font-family: sans-serif;
+}
+
+.column .choose button {
+  background: white;
+  border: 1px solid #e0e0e0;
+  padding: 5px;
+  border-radius: 110px;
+  font-family: arial;
+  font-weight: bold;
+}
+
+.row-text-blocks .column:first-child {
+  margin: 0px 0px 0px 100px;
+}
+
+.row-text-blocks .column:last-child {
+  margin: 0px 100px 10px 0px;
+}
+
+.lastRow {
+  background-color: black;
+  padding: 10px;
+  margin-right: 20px;
+  font-family: sans-serif;
+  color: gray;
+  text-align: center;
+  font-size: 10px;
+  border-bottom-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+
+.lastRow a {
+  color: white;
+}
